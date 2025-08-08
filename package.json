@@ -1,7 +1,8 @@
 {
-  "name": "destiny-proxy",
+  "name": "web-proxy",
   "version": "1.0.0",
-  "description": "A Cloudflare Worker that proxies requests to OpenAI API",
+  "description": "A Cloudflare Worker that proxies arbitrary web requests",
+
   "main": "worker.js",
   "scripts": {
     "dev": "wrangler dev",
@@ -10,7 +11,7 @@
   "keywords": [
     "cloudflare",
     "worker",
-    "openai",
+    "web",
     "proxy"
   ],
   "author": "",

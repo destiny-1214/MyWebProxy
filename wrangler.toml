@@ -1,4 +1,4 @@
-name = "destiny-proxy"
+name = "web-proxy"
 type = "javascript"
 
 main = "worker.js"
