@@ -1,0 +1,21 @@
+{
+  "name": "destiny-proxy",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker that proxies requests to OpenAI API",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler publish"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "openai",
+    "proxy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+name = "destiny-proxy"
+type = "javascript"
+
+main = "worker.js"
+compatibility_date = "2025-07-22"
+
+[build]
+command = ""
+
+[build.upload]
+format = "service-worker"
+
+[observability.logs]
+enabled = true
