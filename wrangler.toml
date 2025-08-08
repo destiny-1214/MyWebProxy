@@ -2,7 +2,7 @@ name = "web-proxy"
 type = "javascript"
 
 main = "worker.js"
-compatibility_date = "2025-07-22"
+compatibility_date = "2025-08-08"
 
 [build]
 command = ""

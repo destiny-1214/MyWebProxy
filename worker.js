@@ -1,7 +1,6 @@
 export default {
 
   // 访问示例：
-  //  https://xx.org/api.openai.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=xx
   async fetch(request) {
     const url = new URL(request.url);
     const headers_Origin = request.headers.get("Access-Control-Allow-Origin") || "*";
